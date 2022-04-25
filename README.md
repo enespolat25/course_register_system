@@ -1,32 +1,15 @@
-# ders_kayit_sistemi
 
-# Ders Kayıt Sistemi
+# Course Register System
 
-* Bu projede ders kayıt sistemi oluşturularak NEAR Protocol üzerinden sisteme öğrencilerin ders kayıt yapması sağlanmıştır.
+* In this project I created a CONTACT on Near Platform that builds a course register system
 
-* Oluşturulan derslerin isimleri, detayları dersin sahibi (kontrat sahibi) tarafından oluşturulup, blokzincire kayıt edilmektedir.
+* In this contract a Course has some parameters: coursename, coursse details, cours owner, course id
 
-* Öğrenciler bu ders listelerinden kendilerine uygun olan derslere kayıt oluşturabilmektedir.
+* Students can choose a course for registering
 
-* Ayrıca derslerin tek tek veya liste halinde çağrılması için kontratta fonsiyonlar tanımlanmıştır.
+* 2 functions are created: one of them is call a course from id, other one calls all courses
 
-* Projeyi çalıştırmak için github'dan proje indirildikten sonta `yarn install` komutu ile gerekli paketler indirilir.
-
-* `yarn asb` komutu ile compile edilir
-
-* `near login` ile oturum açılır.
-
-* `near deploy --accountId=enespolat25.testnet --wasmFile=build/release/students.wasm` ile kontrat deploy edilir.
-
-*  Örnek kurs oluşturma komutu:  `near call enespolat25.testnet createCourse '{"course": {"id": "0", "name": "MATH", "description": "Linear Algabra"}}' --accountId=enespolat25.testnet`
-
-* Kursu çağırma komutu: `near view enespolat25.testnet getCourse '{"id": "0"}'`
-
-* Tüm kursları çağırma komutu: `near view enespolat25.testnet getCourses`
-
-* Öğrenci için herhangi bir kursa kayıt olma komutu: `near call enespolat25.testnet registerCourse '{"courseId": "0"}'  --accountId=enespolat25.testnet`
-
-https://www.loom.com/share/33d40300605e4e1683c3cae765715a77
+* To use the project, you can run bash scripts under scripts folder
 
 
 [Video](https://www.loom.com/share/33d40300605e4e1683c3cae765715a77)
