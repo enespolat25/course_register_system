@@ -12,4 +12,5 @@
 * To use the project, you can run bash scripts under scripts folder
 
 
-[Video](https://www.loom.com/share/33d40300605e4e1683c3cae765715a77)
+https://www.loom.com/share/33d40300605e4e1683c3cae765715a77
+
