@@ -26,4 +26,7 @@
 
 * Öğrenci için herhangi bir kursa kayıt olma komutu: `near call enespolat25.testnet registerCourse '{"courseId": "0"}'  --accountId=enespolat25.testnet`
 
+https://www.loom.com/share/33d40300605e4e1683c3cae765715a77
 
+
+[Video](https://www.loom.com/share/33d40300605e4e1683c3cae765715a77)
